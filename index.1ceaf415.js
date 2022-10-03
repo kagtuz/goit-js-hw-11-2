@@ -6238,17 +6238,17 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
             return undefined;
         };
-        return '\r\n\r\n<div class="photo-card">\r\n  <img src="' + alias4((helper = (helper = lookupProperty(helpers, "webformatURL") || (depth0 != null ? lookupProperty(depth0, "webformatURL") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        return '<div class="photo-card">\r\n  <img src="' + alias4((helper = (helper = lookupProperty(helpers, "webformatURL") || (depth0 != null ? lookupProperty(depth0, "webformatURL") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "webformatURL",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
-                    "line": 4,
+                    "line": 2,
                     "column": 12
                 },
                 "end": {
-                    "line": 4,
+                    "line": 2,
                     "column": 28
                 }
             }
@@ -6258,11 +6258,11 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             "data": data,
             "loc": {
                 "start": {
-                    "line": 4,
+                    "line": 2,
                     "column": 35
                 },
                 "end": {
-                    "line": 4,
+                    "line": 2,
                     "column": 43
                 }
             }
@@ -6272,11 +6272,11 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             "data": data,
             "loc": {
                 "start": {
-                    "line": 7,
+                    "line": 5,
                     "column": 16
                 },
                 "end": {
-                    "line": 7,
+                    "line": 5,
                     "column": 25
                 }
             }
@@ -6286,11 +6286,11 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             "data": data,
             "loc": {
                 "start": {
-                    "line": 10,
+                    "line": 8,
                     "column": 16
                 },
                 "end": {
-                    "line": 10,
+                    "line": 8,
                     "column": 25
                 }
             }
@@ -6300,11 +6300,11 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             "data": data,
             "loc": {
                 "start": {
-                    "line": 13,
+                    "line": 11,
                     "column": 19
                 },
                 "end": {
-                    "line": 13,
+                    "line": 11,
                     "column": 31
                 }
             }
@@ -6314,15 +6314,15 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             "data": data,
             "loc": {
                 "start": {
-                    "line": 16,
+                    "line": 14,
                     "column": 20
                 },
                 "end": {
-                    "line": 16,
+                    "line": 14,
                     "column": 33
                 }
             }
-        }) : helper)) + "</b>\r\n    </p>\r\n  </div>\r\n</div>\r\n";
+        }) : helper)) + "</b>\r\n    </p>\r\n  </div>\r\n</div>";
     },
     "useData": true
 });
@@ -17651,28 +17651,28 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function onCarts({ largeImageURL , webformatURL , tags , likes , views , comments , downloads  }) {
     return `
-       <div class="photo-card">
-       <a class="gallery__link" href="${largeImageURL}">
-        <img class="gallery__img"src="${webformatURL}" alt="${tags}" loading="lazy" width "250"/>
-        </a>
-        <div class="info">
-          <p class="info-item">
-            <b>Like:<br> ${likes}</b>
-          </p>
-          <p class="info-item">
-            <b>View: <br> ${views}</b>
-          </p>
-          <p class="info-item">
-            <b>Comment: <br>${comments}</b>
-          </p>
-          <p class="info-item">
-            <b>Download: <br>${downloads}</b>
-          </p>
-        </div>
-      </div>`;
+     <div class="photo-card">
+     <a class="gallery__link" href="${largeImageURL}">
+      <img class="gallery__img"src="${webformatURL}" alt="${tags}" loading="lazy" width "250"/>
+      </a>
+      <div class="info">
+        <p class="info-item">
+          <b>Like:<br> ${likes}</b>
+        </p>
+        <p class="info-item">
+          <b>View: <br> ${views}</b>
+        </p>
+        <p class="info-item">
+          <b>Comment: <br>${comments}</b>
+        </p>
+        <p class="info-item">
+          <b>Download: <br>${downloads}</b>
+        </p>
+      </div>
+    </div>`;
 }
 exports.default = onCarts;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["eLQnX","gIB0J"], "gIB0J", "parcelRequire7bc7")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["eLQnX","gIB0J"], "gIB0J", "parcelRequirea610")
 
 //# sourceMappingURL=index.1ceaf415.js.map
